@@ -219,6 +219,66 @@ body{
 .f-icons a i{
     color: #ffffff;
 }
-@media screen (max-width:576px){
-    `   
+
+
+
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+        padding: 0 8px;
+    }
+    .nav-item ul{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    }
+    #brand {
+    margin-bottom: 0px;
+    }
+    .banner-wrapper {
+    flex-direction: column-reverse;
+    padding: 22px 10px;
+    gap: 25px;
+    }
+    .banner-img img {
+    width: 100%;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-text .btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+    .brand-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    }
+    .collection-wrapper{
+        padding: 30px;
+    }
+    .card-wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .cards-inner img{
+        width: 100%;
+    }
+    .item-wrapper{
+        padding: 0 15px;
+    }
+    .item-wrapper{
+        flex-direction: column-reverse;
+    }
+    .f-info{
+        text-align: center;
+    }
 }
